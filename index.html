@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="caesar-cipher.js" defer></script>
+</head>
+<body>
+  <div class="card center">
+    <h1>Caesar Cipher</h1>
+    <p>Enter a message to encrypt or decrypt using the Caesar cipher.</p>
+    <div class="card-container">
+      <div class="card small-card-center">
+        <img src="/Users/ndh/EdvGrazProjects/JavaScript/JavaScript_Grundlagen/projekt-aufgabe-caesar-cipher/var/Warning System Icon.png" alt="Caesar Cipher Image" width="150" height="150" />
+      </div>
+      <div class="card small-card">
+        <ol>
+          <li>Write a text in the input box.</li>
+          <li>Enter a number in the number box.</li>
+          <li>Click the Encrypt button.</li>
+          <li>Each letter in the text will shift by the given number.</li>
+        </ol>
+      </div>
+    </div>
+    <input type="text" id="userInput" placeholder="Enter your message here" />
+    <input type="number" id="userShift" placeholder="Enter shift value (-26...26)" min="-26" max="26" />
+    <button id="convert">Convert</button>
+    <p id="result"></p>
+  </div>
+</body>
+</html>
