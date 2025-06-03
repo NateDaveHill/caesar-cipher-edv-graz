@@ -25,15 +25,15 @@ body {
   
   .card-container {
     display: flex;
-    flex-direction: row; /* Arrange items in a row */
-    justify-content: space-between; /* Space them evenly with space between */
-    gap: 20px; /* Add spacing between the cards */
+    flex-direction: row; 
+    justify-content: space-between; 
+    gap: 20px; 
     margin: 20px 0;
-    flex-wrap: nowrap; /* Prevent wrapping */
+    flex-wrap: nowrap; 
 }
 
 .card {
-    flex: 1 1 45%; /* Make each card take up 45% of the container width */
+    flex: 1 1 45%; 
     background-color: white;
     padding: 20px;
     border-radius: 10px;
